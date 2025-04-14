@@ -1,0 +1,37 @@
+@import './base.css';
+
+
+
+a,
+.green {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+
+}
+/* Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* 👈 prevents sidewards scroll */
+  overflow-x: hidden;
+}
+/* #app takes up full viewport */
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #ececec00;
+}
