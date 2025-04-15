@@ -6,8 +6,12 @@
         <SideBar :isCollapsed="isSidebarCollapsed" />
         
         <main class="dashboard-main">
+          <div class="page-info">
           <h1 class="page-title">System Settings</h1>
-          
+          <p class="page-description">  Configure and customize platform-wide settings, including user policies, system behavior, course parameters, and visual appearance.
+          </p>
+          </div>
+
           <div class="settings-tabs">
             <div 
               v-for="tab in tabs" 
@@ -457,14 +461,22 @@
   .dashboard-main {
     flex: 1;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #ebebeb;
     overflow-y: auto;
     position: relative;
   }
   
+.page-info {
+  max-width: 60%;
+  margin-bottom: 20px;
+}
+  .page-description {
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+
   .page-title {
     color: #2c3e50;
-    margin-bottom: 20px;
     font-size: 24px;
     font-weight: 600;
   }
@@ -476,7 +488,7 @@
     margin-bottom: 25px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .tab-item {

@@ -51,13 +51,13 @@
 <style scoped>
 .sidebar {
   width: 220px;
-  background-color: #002244;
+  background-color: #ffffff;
   padding-top: 1rem;
   transition: width 0.3s ease, transform 0.3s ease;
   height: 100vh;
   overflow-y: auto;
   position: relative;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.884);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.397);
 }
 
 .sidebar.collapsed {
@@ -96,7 +96,7 @@
 }
 
 .sidebar li strong {
-  color: #ffffff;
+  color: #333;
   text-decoration: none;
   font-weight: 550;
   font-size: 15px;
@@ -107,10 +107,9 @@
 }
 
 .sidebar .dropdown-menu li {
-  color: #ffffff;
+  color: #333;
   font-size: 13px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
   padding: 3px 40px;
@@ -127,7 +126,7 @@
   margin-right: 10px;
   transition: transform 0.3s ease;
   font-size: 20px;
-  color: #ffffff;
+  color: #333;
 }
 
 .sidebar li:hover i {

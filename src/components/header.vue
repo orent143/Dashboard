@@ -192,9 +192,9 @@ export default {
   .dashboard-header {
     position: sticky;
     top: 0;
-    background-color: #D9D9D9;
+    background-color: #002244;
     padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.336);
     z-index: 10;
   }
   
@@ -210,7 +210,7 @@ export default {
   }
   
   .sidebar-toggle {
-    color: rgba(0, 0, 0, 0.932);
+    color: #ffffffee;
     background-color: transparent;
     border: none;
     padding: 0px;
@@ -445,7 +445,7 @@ export default {
   }
   
   .profile-icon {
-    color: #666;
+    color: #ffffffee;
     font-size: 18px;
     transition: color 0.3s ease;
   }
@@ -453,7 +453,7 @@ export default {
   .user-name {
     font-size: 14px;
     font-weight: 500;
-    color: #333;
+    color: #ffffffee;
     transition: color 0.3s ease;
   }
   
@@ -475,7 +475,7 @@ export default {
   }
   
   .notification-icon {
-    color: #666;
+    color: #ffffffee;
     font-size: 18px;
     cursor: pointer;
     transition: color 0.3s ease;
